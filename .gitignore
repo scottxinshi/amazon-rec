@@ -1,0 +1,22 @@
+# Data files — too large for GitHub
+data/*.jsonl
+data/*.gz
+data/src/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Duplicate notebooks
+*- Copy.ipynb
+*-Copy.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
